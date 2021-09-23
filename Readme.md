@@ -2,7 +2,7 @@
 
 * Студент: [Ирина Юркова](https://up.htmlacademy.ru/htmlcss/32/user/1710157).
 * Наставник: `Денис Байдаров`.
-
+* Студент: [Ирина Юркова](https://github.com/adminreact?tab=repositories).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
