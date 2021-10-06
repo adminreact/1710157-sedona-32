@@ -11,13 +11,13 @@
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link">Главная</a>
+          <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="about.html">О Седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          <a class="navigation-link">Гостиницы</a>
         </li>
       </ul>
       <a class="navigation-logo">
@@ -66,15 +66,16 @@
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="visually-hidden control-input" type="checkbox" name="parking" checked>
-                <span class="control-servise">Парковка</span>
-                <span class="control-label"></span>
+                <span class="control-servise"></span>
+                <span class="control-label">Парковка</span>
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="visually-hidden control-input" type="checkbox" name="wi-fi">
-                <span class="control-servise">Wi-Fi</span>
-                <span class="control-label"></span>
+                <span class="control-servise"></span>
+                <span class="control-label">Wi-Fi</span>
+
               </label>
             </li>
           </ul>
@@ -159,7 +160,7 @@
           <a class="product-card-button button" href="#">Подробнее</a>
           <a class="product-card-button button" href="#">В избранное</a>
           <img class="icon" src="" alt="Звёзды">
-          <p clas="product-card-rating">Рейтинг: 8,5</p>
+          <p class="product-card-rating">Рейтинг: 8,5</p>
         </li>
 
         <li class="product-card">
@@ -172,7 +173,7 @@
           <a class="product-card-button button" href="#">Подробнее</a>
           <a class="product-card-button button" href="#">В избранное</a>
           <img class="icon" src="" alt="Звёзды">
-          <p clas="product-card-rating">Рейтинг: 8,9</p>
+          <p class="product-card-rating">Рейтинг: 8,9</p>
         </li>
 
         <li class="product-card">
@@ -185,7 +186,7 @@
           <a class="product-card-button button" href="#">Подробнее</a>
           <a class="product-card-button button" href="#">В избранное</a>
           <img class="icon" src="" alt="Звёзды">
-          <p clas="product-card-rating">Рейтинг: 9,2</p>
+          <p class="product-card-rating">Рейтинг: 9,2</p>
         </li>
 
         <li class="product-card">
@@ -198,11 +199,11 @@
           <a class="product-card-button button" href="#">Подробнее</a>
           <a class="product-card-button button" href="#">В избранное</a>
           <img class="icon" src="" alt="Звёзды">
-          <p clas="product-card-rating">Рейтинг: 9,2</p>
+          <p class="product-card-rating">Рейтинг: 9,2</p>
         </li>
       </ul>
 
-      <button class="button pagination-show-more" type="button">Загрузить еще</button>
+      <a class="pagination-download-more" href="#">Загрузить ещё</a>
 
       <ul class="pagination">
         <li class="pagination-item">
@@ -228,29 +229,31 @@
         <li class="pagination-item">
           <a class="pagination-link" href="#">10</a>
         </li>
+      </ul>
 
-        <div class="half-width">
-          <label for="amount">Гостиниц на странице:</label>
-          <input type="number" min="1" max="50" id="amount" name="amount">
-        </div>
-        <div class="mail">
-          <h3>Подпишитесь на рассылку</h3>
-          <p>Только полезная информация и никакого спама,честное бойскаутское!</p>
-          <form class="mail-form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="mail-email">
-              <label class="visually-hidden" for="mail-email">Email</label>
-              <input class="field" placeholder="Ваш e-mail" type="email" name="mail-email" id="mail-email" required>
-            </p>
-            <button class="button mail-button" type="submit">
-              <span class="mail-email">Подписаться</span>
-            </button>
-          </form>
-        </div>
+      <div class="half-width">
+        <label for="amount">Гостиниц на странице:</label>
+        <input type="number" min="1" max="50" id="amount" name="amount">
+      </div>
+      <div class="mail">
+        <h3>Подпишитесь на рассылку</h3>
+        <p>Только полезная информация и никакого спама,честное бойскаутское!</p>
+        <form class="mail-form" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="mail-email">
+            <label class="visually-hidden" for="mail-email">Email</label>
+            <input class="field" placeholder="Ваш e-mail" type="email" name="mail-email" id="mail-email" required>
+          </p>
+          <button class="button mail-button" type="submit">
+            <span class="mail-email">Подписаться</span>
+          </button>
+        </form>
+      </div>
     </section>
   </main>
 
   <footer class="page-footer">
     <section class="footer-social">
+      <h2 class="visually-hidden">Соцсети</h2>
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="button" href="https://twitter.com/htmlacademy_ru">
