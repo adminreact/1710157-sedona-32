@@ -12,7 +12,14 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+html {
+  height: 100%;
+}
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
@@ -32,6 +39,8 @@ body {
   text-transform: uppercase;
 }
 .mail-button {
+  display: flex;
+  align-items: baseline;
   font-family: inherit;
   font-size: 20px;
   line-height: 26px;
@@ -45,7 +54,21 @@ body {
 }
 .page-header {
   color:#000000;
-  background: ##FFFFFF;
+  background: #FFFFFF;
+}
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.navigation-list {
+  width: 531px;
+  margin: 0;
+  padding: 0;
+}
+.navigation-user {
+  max-width: 370px;
+  margin-left: auto;
 }
 .navigation-link {
   font-family: "PT Sans", sans-serif;
@@ -57,6 +80,12 @@ body {
   background-color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
+}
+.navigation-logo {
+  width: 138px;
+}
+.main-container {
+  flex-grow: 1;
 }
 .main-index {
   color: #000000;
@@ -72,7 +101,28 @@ body {
   background-color: #FFFFFF;
   background-image: url("img/catalog/catalog-background-1.jpg");
 }
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .advantages-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.advantages-item {
+  width: 400px;
+  height: 384px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 .advantages-title {
@@ -134,7 +184,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  color:#FFFFFF;
+  color: #000000;
 }
 .mail-subtitle {
   font-family: "PT Sans", sans-serif;
@@ -143,7 +193,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  color:#FFFFFF;
+  color:#000000;
 }
 .mail-title-black {
   font-family: "PT Sans", sans-serif;
@@ -177,13 +227,27 @@ body {
   text-transform: uppercase;
   text-align: center;
   color:#000000;
-
 }
 .page-footer .htmlacademy-link {
   font-size: 14px;
   color: #000000;
 }
-
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-social {
+  width: 240px;
+  margin-right: 61px;
+}
+.footer-contacts {
+  width: 720px;
+}
+.htmlacademy-link img {
+  max-width: 115px;
+  margin-left: -200px;
+}
 .inner-header-title {
   font-size: 60px;
   line-height: 78px;
