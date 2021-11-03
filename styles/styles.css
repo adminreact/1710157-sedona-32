@@ -262,8 +262,18 @@ body {
 }
 /*.breadcrumbs {
   color: #FFFFFF;
+}*/
+.catalog-products {
+  display: flex;
+  flex-wrap: wrap;
 }
-.breadcrumbs-link {
+.catalog-filter {
+  display: flex;
+}
+.catalog-column {
+  width: 1056px;
+}
+/*.breadcrumbs-link {
   color: inherit;
 }*/
 /*
