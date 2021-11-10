@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -45,7 +46,7 @@
         <img src="img/catalog/catalog-background-1.jpg" width="1200" height="408" alt="Скалы">
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a class="visually-hidden" href="index.html"><img src="img/home01.svg" width="12" height="12"
+            <a class="breadcrumbs-link" href="index.html"><img src="img/home01.svg" width="12" height="12"
                 alt="Главная"></a>
           </li>
           <li class="breadcrumbs-item">
@@ -216,6 +217,7 @@
 
           <a class="pagination-download-more" href="#">Загрузить ещё</a>
 
+          <div class="pagination-container">
           <ul class="pagination">
             <li class="pagination-item">
               <a class="pagination-link pagination-prev pagination-disabled">
@@ -245,6 +247,7 @@
           <div class="half-width">
             <label for="amount">Гостиниц на странице:</label>
             <input type="number" min="1" max="50" id="amount" name="amount">
+          </div>
           </div>
           <div class="mail">
             <h3 class="mail-title-black">Подпишитесь на рассылку</h3>
