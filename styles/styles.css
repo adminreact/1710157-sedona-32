@@ -36,7 +36,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* Button
+ Button
 .button-all {
   font-family: inherit;
   font-size: 20px;
@@ -48,7 +48,7 @@ body {
   border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;
-}*/
+}
 .mail-button {
   display: flex;
   font-family: inherit;
@@ -104,6 +104,19 @@ body {
   max-width: 138px;
   margin: 0 auto;
 }
+.picture {
+  position: absolute;
+  display: inline-block;
+
+}
+.picture img {
+  width: 458px;
+  height: 352px;
+  left: 40px;
+  top: 550px;
+  /*background-position: top left, center center;*/
+}
+
 .main-container {
   flex-grow: 1;
 }
@@ -373,26 +386,36 @@ body {
   background-color: #FFFFFF;
 }
 .product-list {
+  display: grid;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.product-card {
+  /*grid-row-start: 1;
+  grid-row-end: -1;*/
+  background-color: #FFFFFF;
+  width: 180px;
 }
 .product-card-link {
   text-decoration: none;
 }
 .product-card-title {
+
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   color: #000000;
 }
 .product-card-servise {
+
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
   color: #333333;
 }
 .product-card-price {
+
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
@@ -417,6 +440,7 @@ body {
   color:#FFFFFF;
 }
 .product-card-rating {
+  display: grid;
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
